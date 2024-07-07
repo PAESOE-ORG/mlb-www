@@ -104,7 +104,7 @@ a:hover,
 
 .primary-color,
 .featured .pricing {
-    background-color: var(--highlight-1);;
+    background-color: var(--highlight-2);;
 }
 
 .primary-color,
@@ -142,7 +142,22 @@ a:hover,
     background-color: #f5f5f5;
 }
 
+.background-1 {
+    background-color: var(--highlight-1);
+}
 
+.background-2 {
+    background-color: var(--highlight-2);
+}
+.background-3 {
+    background-color: var(--highlight-3);
+}
+.background-4 {
+    background-color: var(--highlight-4);
+}
+.background-5 {
+    background-color: var(--highlight-5);
+}
 /*------------------------------------------------------------------------------------------*/
 /* 4. Banner */
 /*------------------------------------------------------------------------------------------*/
