@@ -8,41 +8,58 @@
 6. Buttons
 7. Footer
 
+--dark-spring-green: #2c6e49ff;
+--sea-green: #4c956cff;
+--light-yellow: #fefee3ff;
+--melon: #ffc9b9ff;
+--persian-orange: #d68c45ff;
+
+
 
 /*------------------------------------------------------------------------------------------*/
 /* 1. Website Default Styling */
-#B0C7BD/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
 
+:root {
+    --highlight-1: #2c6e49ff;
+    --highlight-2: #4c956cff;
+    --highlight-3: #fefee3ff;
+    --highlight-4: #ffc9b9ff;
+    --highlight-5: #d68c45ff;
+}
 
 body {
-    background:#fff;
+    background: #fff;
 }
 
 
 /* Default Link Color */
 
-a, .la-ball-triangle-path {
-    color:#B0C7BD;
+a,
+.la-ball-triangle-path {
+    color: var(--highlight-1);;
 }
 
-a:hover, #header.nav-solid nav a:hover {
-    color:#B0C7BD;
+a:hover,
+#header.nav-solid nav a:hover {
+    color: var(--highlight-1);;
 }
 
 /* Default Icon Color */
 
 .icon i {
-    color:#B0C7BD;
+    color: var(--highlight-1);;
 }
 
 /* Border Color */
 
-#banner .section-heading:before, .testimonial.classic footer:before {
-    background: #B0C7BD;
+#banner .section-heading:before,
+.testimonial.classic footer:before {
+    background: var(--highlight-1);;
 }
 
 .pricing-block-content:hover {
-    border-color:#B0C7BD;
+    border-color: var(--highlight-5);;
 }
 
 
@@ -53,24 +70,28 @@ a:hover, #header.nav-solid nav a:hover {
 
 /* Transparent Navigation Color on a Banner */
 
-#header nav a, #header i {
-    color:#111;
+#header nav a,
+#header i {
+    color: #111;
 }
 
 
-/* Navigation Colors when the Navigation is sticky and solid */ 
+/* Navigation Colors when the Navigation is sticky and solid */
 
-#header.nav-solid, #header.nav-solid a, #header.nav-solid i, #nav-mobile ul li a {
-    color:#333;
+#header.nav-solid,
+#header.nav-solid a,
+#header.nav-solid i,
+#nav-mobile ul li a {
+    color: #333;
 }
 
 
 /* Navigation Active State */
 
 #header.nav-solid .active {
-    color: #B0C7BD;
+    color: var(--highlight-1);;
     border-color: ;
-}    
+}
 
 
 
@@ -81,38 +102,44 @@ a:hover, #header.nav-solid nav a:hover {
 
 /* Primary Background and Text Colors */
 
-.primary-color, .featured .pricing {
-    background-color:#B0C7BD;
+.primary-color,
+.featured .pricing {
+    background-color: var(--highlight-1);;
 }
 
-.primary-color, .primary-color .section-title, .primary-color .section-subtitle, .featured .pricing, .featured .pricing p {
-    color:#fff;    
+.primary-color,
+.primary-color .section-title,
+.primary-color .section-subtitle,
+.featured .pricing,
+.featured .pricing p {
+    color: #fff;
 }
 
 .section-heading h2:after {
-    background:#B0C7BD;
-    content:"";
-    display:block;
-    width:30px;
-    height:5px;
-    margin-top:30px;
+    background: var(--highlight-1);;
+    content: "";
+    display: block;
+    width: 30px;
+    height: 5px;
+    margin-top: 30px;
 }
 
 .text-center .section-heading h2:after {
-    margin:30px auto 25px auto;
+    margin: 30px auto 25px auto;
 }
 
 /* Primary Icon Colors */
 
-.primary-color .icon i, .primary-color i {
-    color:#fff;
+.primary-color .icon i,
+.primary-color i {
+    color: #fff;
 }
 
 
 /* Secondary Background and Text Colors */
 
 .secondary-color {
-    background-color:#f5f5f5;
+    background-color: #f5f5f5;
 }
 
 
@@ -125,7 +152,7 @@ a:hover, #header.nav-solid nav a:hover {
 
 #banner {
     background: url("../images/banner-images/banner-image-1.jpg") no-repeat center top;
-    background-size:cover;
+    background-size: cover;
 }
 
 
@@ -136,9 +163,9 @@ a:hover, #header.nav-solid nav a:hover {
 
 body {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size:15px;
-    font-weight:normal;
-    color:#111;
+    font-size: 15px;
+    font-weight: normal;
+    color: #111;
 }
 
 /* Logo, if you are using Fonts as Logo and not image
@@ -164,17 +191,17 @@ body {
 
 #banner h1 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size:62px;
-    line-height:60px;
-    font-weight:800;
-    color:#111;
+    font-size: 62px;
+    line-height: 60px;
+    font-weight: 800;
+    color: #111;
 }
 
 #banner h2 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size:18px;
-    font-weight:300;
-    color:#111;
+    font-size: 18px;
+    font-weight: 300;
+    color: #111;
 }
 
 
@@ -182,28 +209,29 @@ body {
 
 .section-title {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 34px; 
-    font-weight:700;
-    color:#111;
+    font-size: 34px;
+    font-weight: 700;
+    color: #111;
 }
 
 .section-subtitle {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size: 16px;
-    font-weight:300;
-    color:#9c9c9c;
+    font-weight: 600;
+    color: var(--highlight-5);
 }
 
 /* Testimonial */
 
 .testimonial q {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 17px; 
-    font-weight:300;
+    font-size: 17px;
+    font-weight: 300;
 }
 
-.testimonial.classic q, .testimonial.classic footer {
-    color:#111;
+.testimonial.classic q,
+.testimonial.classic footer {
+    color: #111;
 }
 
 
@@ -211,44 +239,44 @@ body {
 
 h1 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 40px; 
-    font-weight:300;
-    color:#111;
+    font-size: 40px;
+    font-weight: 300;
+    color: #111;
 }
 
 h2 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 34px; 
-    font-weight:300;
-    color:#111;
+    font-size: 34px;
+    font-weight: 300;
+    color: #111;
 }
 
 h3 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 30px; 
-    font-weight:700;
-    color:#111;
+    font-size: 30px;
+    font-weight: 700;
+    color: #111;
 }
 
 h4 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 18px; 
-    font-weight:400;
-    color:#111;
+    font-size: 18px;
+    font-weight: 400;
+    color: #111;
 }
 
 h5 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 16px; 
-    font-weight:400;
-    color:#111;
+    font-size: 16px;
+    font-weight: 400;
+    color: #111;
 }
 
 h6 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 14px; 
-    font-weight:400;
-    color:#111;
+    font-size: 14px;
+    font-weight: 400;
+    color: #111;
 }
 
 
@@ -261,26 +289,29 @@ h6 {
 
 /* Button Text */
 
-.button, input[type="submit"]  {
+.button,
+input[type="submit"] {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size:14px;
-    font-weight:bold;
-    color:#111;
+    font-size: 14px;
+    font-weight: bold;
+    color: #111;
 }
 
 
 /* Button Color */
 
-.button, input[type="submit"] {
-    border-color:#111;
+.button,
+input[type="submit"] {
+    border-color: #111;
 }
 
 
 /* Button Hover Color */
 
-.button:hover,  input[type="submit"]:hover {
-    border-color:#B0C7BD;
-    color:#B0C7BD;
+.button:hover,
+input[type="submit"]:hover {
+    border-color: var(--highlight-1);;
+    color: var(--highlight-1);;
 }
 
 
@@ -291,23 +322,23 @@ h6 {
 
 #banner .button {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size:16px;
-    color:#111;
+    font-size: 16px;
+    color: #111;
 }
 
 
 /* Button Color */
 
 #banner .button {
-    border-color:#111;
+    border-color: #111;
 }
 
 
 /* Button Hover Color */
 
 #banner .button:hover {
-    color:#B0C7BD;
-    border-color:#B0C7BD;
+    color: var(--highlight-1);;
+    border-color: var(--highlight-1);;
 }
 
 
@@ -315,15 +346,17 @@ h6 {
 /* 7. Footer */
 /*------------------------------------------------------------------------------------------*/
 
-#landing-footer, #landing-footer p, #landing-footer a {
+#landing-footer,
+#landing-footer p,
+#landing-footer a {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size:12px;
-    font-weight:normal;
-    color:#999;
+    font-size: 12px;
+    font-weight: normal;
+    color: #999;
 }
 
 /* Footer Icon Color */
 
 #landing-footer i {
-    color:#999;
+    color: #999;
 }

@@ -26,9 +26,20 @@
 7. Footer
 
 
+
 /*------------------------------------------------------------------------------------------*/
 /* 1. Defaults & Reset of specific styles across browsers */
 /*------------------------------------------------------------------------------------------*/
+
+
+:root {
+    --highlight-1: #2c6e49ff;
+    --highlight-2: #4c956cff;
+    --highlight-3: #fefee3ff;
+    --highlight-4: #ffc9b9ff;
+    --highlight-5: #d68c45ff;
+}
+
 
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
@@ -769,7 +780,7 @@ h6 {
 .section-heading h3 {
     font-size: 14px;
     font-weight: bold;
-    color: #ccc;
+    color: var(--highlight-2);
     letter-spacing: 2px;
     padding-bottom: 0;
 }
