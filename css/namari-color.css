@@ -59,7 +59,7 @@ a:hover,
 }
 
 .pricing-block-content:hover {
-    border-color: var(--highlight-5);;
+    border-color: var(--highlight-2);;
 }
 
 
@@ -178,7 +178,7 @@ a:hover,
 
 body {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: normal;
     color: #111;
 }
@@ -231,9 +231,9 @@ body {
 
 .section-subtitle {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
-    color: var(--highlight-5);
+    color: var(--highlight-1);
 }
 
 /* Testimonial */

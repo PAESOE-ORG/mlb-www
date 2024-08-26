@@ -775,10 +775,11 @@ h6 {
 .section-subtitle {
     font-size: 18px;
     padding-top: 0;
+
 }
 
 .section-heading h3 {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     color: var(--highlight-2);
     letter-spacing: 2px;
@@ -795,7 +796,7 @@ h6 {
 
 #banner-content.row {
     padding-top: 170px;
-    padding-bottom: 100px;
+    padding-bottom: 25px;
 }
 
 #banner h1 {
@@ -2165,6 +2166,10 @@ blockquote {
         padding-top: 85px !important;
     }
 
+    #banner-content.h1 {
+        text-align: center;
+        align-items: center;
+    }
     /*-----------------Sections-----------------*/
 
     /* Call to Action*/
@@ -2337,7 +2342,6 @@ blockquote {
     }
 
 }
-
 
 
 
