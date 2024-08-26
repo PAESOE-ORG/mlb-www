@@ -21,7 +21,7 @@
 /*------------------------------------------------------------------------------------------*/
 
 :root {
-    --highlight-1: #2c6e49ff;
+    --highlight-1: #006338ff;
     --highlight-2: #4c956cff;
     --highlight-3: #fefee3ff;
     --highlight-4: #ffc9b9ff;
@@ -59,7 +59,7 @@ a:hover,
 }
 
 .pricing-block-content:hover {
-    border-color: var(--highlight-2);;
+    border-color: var(--highlight-1);;
 }
 
 
@@ -104,7 +104,7 @@ a:hover,
 
 .primary-color,
 .featured .pricing {
-    background-color: var(--highlight-2);;
+    background-color: var(--highlight-1);;
 }
 
 .primary-color,

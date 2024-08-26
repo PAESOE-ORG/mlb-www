@@ -33,7 +33,7 @@
 
 
 :root {
-    --highlight-1: #2c6e49ff;
+    --highlight-1: #006338ff;
     --highlight-2: #4c956cff;
     --highlight-3: #fefee3ff;
     --highlight-4: #ffc9b9ff;
@@ -781,7 +781,7 @@ h6 {
 .section-heading h3 {
     font-size: 18px;
     font-weight: bold;
-    color: var(--highlight-2);
+    color: var(--highlight-1);
     letter-spacing: 2px;
     padding-bottom: 0;
 }
@@ -934,6 +934,12 @@ h6 {
 
 .features div:nth-child(4) {
     clear: both;
+}
+
+/* --------- 6 About ---------- */
+
+#about img {
+    border-radius: 250em;
 }
 
 /* --------- 6.3 Testimonials ---------- */
@@ -1405,7 +1411,7 @@ blockquote {
     padding: 15px 25px;
 }
 
-.client-overlay {
+/* .client-overlay {
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
     top;
@@ -1420,7 +1426,7 @@ blockquote {
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-}
+} */
 
 #clients a:hover .client-overlay {
     opacity: 1;
